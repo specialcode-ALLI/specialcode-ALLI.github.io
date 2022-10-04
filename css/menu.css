@@ -1,0 +1,35 @@
+nav{
+    background-color: lightseagreen;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    width: 33.3%;
+    text-align: center;
+}
+nav a{
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav li:hover{
+    padding: 15px 30px 20px 30px ;
+}
+.menuInfo:hover{
+    border-top: 5px solid blue;
+    background-color: rgb(132, 132, 241);
+}
+.menuExperiance:hover{
+    border-top: 5px solid yellow;
+    background-color: darkgoldenrod;
+}
+.menuContact:hover{
+    border-top: 5px solid red;
+    background-color: rgb(226, 77, 77);
+}
